@@ -1,0 +1,86 @@
+
+.bg-blue {
+  background-color: #4390c5;
+	padding:200px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+}
+
+.padd-10{
+  padding: 10px;
+}
+
+.padd-100 {
+  padding: 100px;
+}
+
+.padd-200 {
+  padding: 200px;
+}
+.marg-t-150 {
+  margin-top: 150px;
+}
+
+.marg-t-130 {
+  margin-top: 130px;
+}
+
+.marg-t-80 {
+  margin-top: 80px;
+}
+
+.marg-t-60 {
+  margin-top: 60px;
+}
+
+.circle {
+  margin: 5px 20px 0 0;
+  position:relative;
+  width: 15px;
+	height: 15px;
+	background: #86b75c;
+	border-radius: 10px;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  float: left;
+}
+.circleIn {
+  width: 11px;
+	height: 11px;
+  position:absolute;
+  top:2px;
+  left:2px;
+  background:white;
+  border-radius:11px
+}
+.punktur {
+  margin-right: 10px;
+}
+h3 {
+  padding-left: 10px;
+  display: inline-block;
+}
+h4,h1,li,h3 {
+  line-height: 1.5
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:32.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
